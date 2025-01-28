@@ -1,5 +1,6 @@
-I made this game for a school project, and decided to publish it because I think it's pretty cool. 
-You can find the latest version <a href="[url](https://github.com/yorifant/Type_Pong/releases)">here</a>.
+I made this game for a school project, and decided to publish it because I think it's pretty cool.
+
+You can find the latest version [here](https://github.com/yorifant/Type_Pong/releases).
 Follow the download instructions, and the game will be ready to play!
 
 How to play the game:
