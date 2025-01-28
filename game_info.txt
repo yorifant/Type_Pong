@@ -1,0 +1,49 @@
+basically ping pong VS AI
+multiple difficulties to either practice or play for beginners / advanced players
+the goal is to get the highest score.
+game ends when you reach 0 HP
+you start with ... hp (depending on difficultly)
+
+the game loop:
+    when the ball is coming towards you, there is a word on your left and right
+    by repeating the first letter of the word on your left or right, you can move left / right.
+        by typing the full word before the ball arrives at you, then you hit the ball.
+        -> however, once you started typing 1 word, you can't start the other one.
+        -> choose direction wisely.
+            if your racket isn't in the right position, you miss the ball.
+            if you didn't type the full word in time, you miss the ball.
+    -> you gain 1 point if you hit the ball.
+        you gain 2 points if you type the last letter between a narrow time window.
+    -> you lose 1 HP if you miss the ball.
+
+different difficulties:
+    practice:
+        speed is slow and goes up very slow.
+        window for last letter is wide.
+        -> this mode exists just to practice moving, typing and timing the last letter
+        you start with more HP.
+        -> you can play longer per game.
+    easy:
+        speed starts slow, but speed goes up the longer the game goes on.
+        -> starts easy, but gets harder over time. (for beginners that need to warm up first)
+        window for last letter is wider.
+        -> easy to get x2 points.
+    hard:
+        speed starts fast, and speed goes up the longer the game goes on.
+        -> it starts hard and gets harder over time. (for advanced players, so that the first rounds don't become boring)
+        window for last letter is smaller.
+        -> difficult to get x2 points.
+
+the actual typing:
+    as previously mentioned:
+        you move left / right by repeatedly typing the first letter of the word on your left / right.
+        -> once you begin one word, your word choice is locked in and you can't change anymore.
+            then you finish the rest of your word, and once you type the last letter of the word, you shoot with your racket.
+
+interesting game mechanics and considerations:
+    the key inputs to move around / slam your racket change every time.
+    -> challenging for your brain.
+    the typing speed is visualized by the ball literally coming to you faster / slower.
+    -> intuitive to play.
+    if you type the last letter at the very last moment within a narrow time-window, you get x2 points.
+    -> higher skill ceiling, for advanced players.
